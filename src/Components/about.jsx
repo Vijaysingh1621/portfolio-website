@@ -15,7 +15,7 @@ const About = () => {
           className="w-[300px] h-[300px] rounded-full overflow-hidden shadow-lg"
         >
           <img
-            src="../../public/profile.jpg"
+            src="/profile.jpg"
             alt="Your Name"
             className="w-full h-full object-cover"
           />
