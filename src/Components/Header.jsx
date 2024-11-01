@@ -11,12 +11,12 @@ const Header = () => {
 
   return (
     <header className="flex justify-between rounded-md items-center p-5 bg-white bg-opacity-70 backdrop-blur-md shadow-md fixed top-0 w-full z-50">
-      <h1 className="text-2xl font-bold text-[2rem] pb-2 text-transparent text-gray-900 cursor-pointer">Vijay</h1>
+      <h1 className="text-2xl font-bold text-[2rem] pb-2  text-gray-900 cursor-pointer">Vijay</h1>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:block md:text-[19px] font-normal">
         <ul className="flex space-x-6 justify-center items-center md:pr-[500px] ">
-          <li><a href="#" className="hover:text-blue-500">Home</a></li>
+          <li><a href="/" className="hover:text-blue-500">Home</a></li>
           <li><a href="#about" className="hover:text-purple-500">About</a></li>
           <li><a href="#projects" className="hover:text-pink-500">Projects</a></li>
           <li><a href="#contact" className="hover:text-gray-500">Contact</a></li>
