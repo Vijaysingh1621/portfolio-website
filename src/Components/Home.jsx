@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section className="h-screen bg-cover  mt-10 lg:mt-0 overflow-hidden" style={{ backgroundImage: "url('/profile.jpg')" , overflowX:"hidden"}}  >
+    <section className="h-screen bg-cover  mt-10 lg:mt-0 overflow-hidden" style={{ backgroundImage: "url('')" , overflowX:"hidden"}}  >
       
       <div className="flex flex-col justify-center items-center lg:pl-[400px] pl-0 h-full bg-black bg-opacity-50 overflow-hidden">
         <motion.h1
