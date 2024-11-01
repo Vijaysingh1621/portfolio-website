@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between rounded-md items-center p-5 bg-white bg-opacity-70 backdrop-blur-md shadow-md fixed top-0 w-full z-50">
-      <h1 className="text-2xl font-bold text-[2rem] pb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 cursor-pointer">Vijay</h1>
+      <h1 className="text-2xl font-bold text-[2rem] pb-2 text-transparent text-gray-900 cursor-pointer">Vijay</h1>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:block md:text-[19px] font-normal">
@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         
         <ul className="flex flex-col items-center justify-center space-y-6 pb-10 pt-10 mt-4 bg-white bg-opacity-80 backdrop-blur-md shadow-md ">
-          <li><a href="#home" className="text-lg hover:text-blue-500" onClick={toggleSidebar}>Home</a></li>
+          <li><a href="/" className="text-lg hover:text-blue-500" onClick={toggleSidebar}>Home</a></li>
           <li><a href="#about" className="text-lg hover:text-blue-500" onClick={toggleSidebar}>About</a></li>
           <li><a href="#projects" className="text-lg hover:text-blue-500" onClick={toggleSidebar}>Projects</a></li>
           <li><a href="#contact" className="text-lg hover:text-blue-500" onClick={toggleSidebar}>Contact</a></li>

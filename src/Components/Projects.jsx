@@ -1,4 +1,5 @@
 // components/Projects.js
+import projectimg from "../../public/project2.jpg"
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
@@ -9,7 +10,7 @@ const projects = [
     title: "Project 1", 
     description: "This project showcases skills in front-end development and responsive design. It includes modern UI components, animations, and a dynamic data-driven structure.",
     fullDescription: "This project showcases skills in front-end development, using responsive design, animations, and a data-driven structure. It integrates advanced features and modular components, ensuring a smooth user experience across various devices.",
-    image: "/project2.jpg",
+    image: projectimg,
     liveLink: "#", 
     githubLink: "#"
   },
@@ -18,7 +19,7 @@ const projects = [
     title: "Project 2", 
     description: "A full-stack project with a beautiful UI and intuitive features that solve real-world problems.",
     fullDescription: "A full-stack project designed with a beautiful UI and intuitive features that solve real-world problems. This project integrates back-end and front-end development, with API connectivity and real-time data features.",
-    image: "/project2.jpg",
+    image: projectimg,
     liveLink: "#", 
     githubLink: "#"
   },
@@ -27,7 +28,7 @@ const projects = [
     title: "Project 3", 
     description: "This project showcases skills in front-end development and responsive design. It includes modern UI components, animations, and a dynamic data-driven structure.",
     fullDescription: "This project showcases skills in front-end development, using responsive design, animations, and a data-driven structure. It integrates advanced features and modular components, ensuring a smooth user experience across various devices.",
-    image: "/project2.jpg",
+    image: projectimg,
     liveLink: "#", 
     githubLink: "#"
   },

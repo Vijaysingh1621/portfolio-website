@@ -1,4 +1,5 @@
 // components/Contact.js
+import mapimage from "/map.jpg"
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaPaperPlane } from "react-icons/fa";
@@ -43,7 +44,7 @@ const Contact = () => {
   {/* Background Map Image */}
   <div className="absolute inset-0">
     <img
-      src="/map.jpg" // Replace with actual path to map image
+      src={mapimage} // Replace with actual path to map image
       alt="Map background"
       className="w-full h-full object-cover p-5 rounded-[40px]"
     />

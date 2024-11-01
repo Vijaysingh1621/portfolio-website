@@ -1,4 +1,5 @@
 // components/About.js
+import profile from "../../public/profile.jpg"
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -15,7 +16,7 @@ const About = () => {
           className="w-[300px] h-[300px] rounded-full overflow-hidden shadow-lg"
         >
           <img
-            src="/profile.jpg"
+            src={profile}
             alt="Your Name"
             className="w-full h-full object-cover"
           />
