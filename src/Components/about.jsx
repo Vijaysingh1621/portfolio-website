@@ -15,7 +15,7 @@ const About = () => {
           className="w-[300px] h-[300px] rounded-full overflow-hidden shadow-lg"
         >
           <img
-            src="../../public/profile.jpg"
+            src="/profile.jpg"
             alt="Your Name"
             className="w-full h-full object-cover"
           />
@@ -27,12 +27,10 @@ const About = () => {
           className="max-w-md text-center md:text-left"
         >
           <p className="text-lg mb-4">
-            Hello! I'm a passionate frontend developer with expertise in React, Tailwind CSS, and modern web technologies.
-            I specialize in creating responsive and user-friendly interfaces that provide exceptional user experiences.
+          Hi, I’m Vijay Singh, a Bachelor of Technology student at Netaji Subhas University of Technology, Delhi. I’m passionate about frontend development, with hands-on experience in React.js, Next.js, Tailwind CSS, MongoDB, and working knowledge of GitHub and DevOps practices.
           </p>
           <p className="text-lg">
-            With a keen eye for design and a love for clean, efficient code, I strive to build websites and applications
-            that not only look great but also perform seamlessly across all devices.
+          I also have practical experience with RESTful APIs, enabling smooth and efficient communication between frontend and backend services. With a strong foundation in building responsive, user-friendly web applications, I’m always excited to learn, innovate, and contribute to impactful projects.
           </p>
         </motion.div>
       </div>

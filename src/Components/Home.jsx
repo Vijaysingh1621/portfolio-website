@@ -1,12 +1,11 @@
-// components/Hero.js
 import React from "react";
 import { motion } from "framer-motion";
 
-const Hero = () => {
+const Home = () => {
   return (
-    <section id="home" className="h-screen bg-cover mt-10 lg:mt-0 w-full" style={{ backgroundImage: "url('/../../public/profile.jpg')"}}  >
-      {/* <img src="../../public/profile.jpg" className=" rounded-full bg-cover pt-[100px] " alt="" width={400} height={400}></img> */}
-      <div className="flex flex-col justify-center items-center lg:pl-[400px] pl-0 h-full bg-black bg-opacity-50">
+    <section className="h-screen bg-cover  mt-10 lg:mt-0 overflow-hidden" style={{ backgroundImage: "url('/profile.jpg')" , overflowX:"hidden"}}  >
+      
+      <div className="flex flex-col justify-center items-center lg:pl-[400px] pl-0 h-full bg-black bg-opacity-50 overflow-hidden">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -25,13 +24,14 @@ const Hero = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-2xl text-white"
+          className="text-2xl text-white p-4"
         >
           Full Stack Developer | Passionate Coder
         </motion.p>
       </div>
     </section>
+    
   );
 };
 
-export default Hero;
+export default Home;
